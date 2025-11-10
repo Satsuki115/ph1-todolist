@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+<link rel="stylesheet" href="/node_modules/sweetalert2/dist/sweetalert2.min.css">
+
+</head>
+<body>
+<div class="p-10  flex-col justify-center items-center">
+<div class="w-full flex justify-center flex-col gap-4 items-center">
+    <input type="text" id="new-task-input" placeholder="新しいToDoを入力して" class="text-gray-400 border mb-5 p-2 max-w-lg w-full hover:bg-blue-700">
+    
+    <button id="add-task-button" class="text-white  font-bold  text-center font-bold mb-5 py-2 px-4 bg-blue-500 w-40 justify-between">追加</button>
+    <ul id="task-list"></ul>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html> 
